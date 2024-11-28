@@ -19,21 +19,23 @@ Below are the official implementation of RespiraLab, which ***will be fully open
 
 ## Demo
 
-Based on video segmentation and machine learning methods, **RespiraLab** is an Interactive tool focused on diaphragm monitoring and cough strength estimation using B-mode ultrasound. It can be used for other potential applications in ICU, such as weaning outcome predection.
+Based on video segmentation and machine learning methods, **RespiraLab** is an Interactive tool focused on diaphragm monitoring and cough strength estimation using B-mode ultrasound. It can be used for other potential applications in ICU, such as weaning outcome predection. Below are three **real-time** demos using our multi-view probes:
 
 - Diaphragm **monitoring** during resipration:
 
 https://github.com/user-attachments/assets/aa7f50d7-b524-4b7f-a2a6-90eee592ed16
 
-- Cough strength estimation (Mild cough):
+- **Cough strength estimation** (Mild cough):
 
-https://github.com/SongZ-PolyU/RespiraLab/issues/2#issue-2700673142
+https://github.com/user-attachments/assets/c0818520-b2ce-4249-b248-f44aac0ff1ce
 
-- Cough strength estimation (Heavy cough):
 
-https://github.com/SongZ-PolyU/RespiraLab/issues/3#issue-2700673488
+- **Cough strength estimation** (Heavy cough):
 
-More results can be found in [demo0](demo0) and [demo1](demo1)
+https://github.com/user-attachments/assets/aab362b4-5bbe-48d5-b1a7-dedf36f09f77
+
+
+More results of **offline processing** can be found in [demo0](demo0) and [demo1](demo1)
 
 ## Overview
 
@@ -43,7 +45,7 @@ More results can be found in [demo0](demo0) and [demo1](demo1)
 
 * Users can [load their own video data](#getting-started).
 * Software produce data in a easy-to-manage [directory and format](#data-format).
-* Generate ROIs and initial masks automatically or manually.
+* Generate ROIs and initial masks [automatically](#methodology) or manually.
 * [Real-tmie visulize](#demo) segmented videos, SMG signals, SMG features, and estimated Cough Peak Flow.
 * [Multi-view ultrasound analysis](#methodology).
 
@@ -56,7 +58,7 @@ More results can be found in [demo0](demo0) and [demo1](demo1)
 
 ### Environment configuration for GPU inference
 
-* Confirmation after the relevant paper is published.
+* Avaliable after the relevant paper is published.
 
 ## Use the GUI
 
@@ -112,20 +114,20 @@ SMG signals and extracted SMG features.
 ```bash
 
 demo0
-├── images  // file containing processed images
+├── images                // file containing processed images
 │   ├── demo0_0.jpg
 │   ├── demo0_0_.jpg
 │   └── ...
-├── masks   // file containing generated masks
+├── masks                 // file containing generated masks
 │   ├── demo0_0.png
 │   ├── demo0_0_.png
 │   └── ...
-├── demo0.mp4  // videos of intercostal view
-├── demo0.png  // initial mask of subcostal view
-├── demo0_.mp4  // videos of subcostal view
-├── demo0_.png  // initial mask of intercostal view
-├── demo0_roi.txt  // saved roi information
-└── demo0.xls  // exported data
+├── demo0.mp4             // videos of intercostal view
+├── demo0.png             // initial mask of subcostal view
+├── demo0_.mp4            // videos of subcostal view
+├── demo0_.png            // initial mask of intercostal view
+├── demo0_roi.txt         // saved roi information
+└── demo0.xls             // exported data
 
 ```
 (Two examples: [demo0](demo0) and [demo1](demo1))
@@ -134,6 +136,10 @@ demo0
 
 Avaliable after the relevant paper is published
 
+## Citing
 
+Not applicable
 
-Contact: <zhen0212.song@connect.polyu.hk> <yongping.zheng@polyu.edu.hk>
+## Contact
+
+<zhen0212.song@connect.polyu.hk> <yongping.zheng@polyu.edu.hk>
