@@ -23,21 +23,21 @@ Based on video segmentation and machine learning methods, **RespiraLab** is an I
 
 - Diaphragm **monitoring** during resipration:
 
-https://github.com/SongZ-PolyU/RespiraLab/assets/demo_monitoring.mp4
+https://github.com/SongZ-PolyU/RespiraLab/tree/main/assets/demo_monitoring.mp4
 
 - Cough strength estimation (Mild):
 
-https://github.com/SongZ-PolyU/RespiraLab/assets/demo_cough1.mp4
+https://github.com/SongZ-PolyU/RespiraLab/tree/main/assets/demo_cough1.mp4
 
 - Cough strength estimation (Heavy):
 
-https://github.com/SongZ-PolyU/RespiraLab/assets/demo_cough2.mp4
+https://github.com/SongZ-PolyU/RespiraLab/tree/main/assets/demo_cough2.mp4
 
 More results can be found in [demo0](demo0) and [demo1](demo1)
 
 ## Overview
 
-<div align=center><img src="docs/gui_overview.jpg" width="60%"/></div>
+<div align=center><img src="docs/gui_overview.jpg" width="80%"/></div>
 
 **RespiraLab** is built on high-performance video segmentation algorithms and enables users to automatically analyze custom data:
 
@@ -74,15 +74,15 @@ RespiraLab.exe
 3. Set Regions of interest (ROIs) by dragging the handle of scalable boxes or [automatically generating](#methodology):
 
 <div style="display: flex; justify-content: left;">
-    <img src="docs/roi_intercostal.png" width="20%" style="margin-right: 10px;"/>
-    <img src="docs/roi_subcostal.jpg" width="20%"/>
+    <img src="docs/roi_intercostal.png" width="40%" style="margin-right: 10px;"/>
+    <img src="docs/roi_subcostal.jpg" width="40%"/>
 </div>
 
 4. [Generate](#methodology) or draw inital masks:
 
 <div style="display: flex; justify-content: left;">
-    <img src="docs/drawing.jpg" width="20%" style="margin-right: 10px;"/>
-    <img src="docs/drawed.jpg" width="20%"/>
+    <img src="docs/drawing.jpg" width="40%" style="margin-right: 10px;"/>
+    <img src="docs/drawed.jpg" width="40%"/>
 </div>
 Using Polyline to draw masks in manual mode.
 
@@ -90,12 +90,13 @@ Using Polyline to draw masks in manual mode.
 The green color of the toolbar icons indicates whether the different preset configurations are ready.
 
 6. Calibrate the unit and start processing by pressing:
+
 ![](docs/start.png)
 
 7. Show results:
 <div style="display: flex; justify-content: left;">
-    <img src="docs/SMG_signals.jpg" width="20%" style="margin-right: 10px;"/>
-    <img src="docs/SMG_features.jpg" width="15%"/>
+    <img src="docs/SMG_signals.jpg" width="40%" style="margin-right: 20px;"/>
+    <img src="docs/SMG_features.jpg" width="20%"/>
 </div>
 SMG signals and extracted SMG features.
 
