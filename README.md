@@ -69,7 +69,7 @@ Conda activate env_name
 RespiraLab.exe
 ```
 
-2. Load videos and other settings by pressing:
+2. Load videos and other pre-settings by pressing:
 
 ![](docs/load_video.png)
 
