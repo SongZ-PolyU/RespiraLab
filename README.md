@@ -23,7 +23,7 @@ Based on video segmentation and machine learning methods, **RespiraLab** is an I
 
 - Diaphragm **monitoring** during resipration:
 
-https://github.com/SongZ-PolyU/RespiraLab/issues/1#issue-2700672623
+https://github.com/user-attachments/assets/aa7f50d7-b524-4b7f-a2a6-90eee592ed16
 
 - Cough strength estimation (Mild cough):
 
