@@ -23,21 +23,21 @@ Based on video segmentation and machine learning methods, **RespiraLab** is an I
 
 - Diaphragm **monitoring** during resipration:
 
-https://github.com/SongZ-PolyU/RespiraLab/tree/main/assets/demo_monitoring.mp4
+https://github.com/SongZ-PolyU/RespiraLab/issues/1#issue-2700672623
 
-- Cough strength estimation (Mild):
+- Cough strength estimation (Mild cough):
 
-https://github.com/SongZ-PolyU/RespiraLab/tree/main/assets/demo_cough1.mp4
+https://github.com/SongZ-PolyU/RespiraLab/issues/2#issue-2700673142
 
-- Cough strength estimation (Heavy):
+- Cough strength estimation (Heavy cough):
 
-https://github.com/SongZ-PolyU/RespiraLab/tree/main/assets/demo_cough2.mp4
+https://github.com/SongZ-PolyU/RespiraLab/issues/3#issue-2700673488
 
 More results can be found in [demo0](demo0) and [demo1](demo1)
 
 ## Overview
 
-<div align=center><img src="docs/gui_overview.jpg" width="80%"/></div>
+<div align=center><img src="docs/gui_overview.jpg" width="90%"/></div>
 
 **RespiraLab** is built on high-performance video segmentation algorithms and enables users to automatically analyze custom data:
 
@@ -95,8 +95,8 @@ The green color of the toolbar icons indicates whether the different preset conf
 
 7. Show results:
 <div style="display: flex; justify-content: left;">
-    <img src="docs/SMG_signals.jpg" width="40%" style="margin-right: 20px;"/>
-    <img src="docs/SMG_features.jpg" width="20%"/>
+    <img src="docs/SMG_signals.jpg" width="60%" style="margin-right: 20px;"/>
+    <img src="docs/SMG_features.jpg" width="30%"/>
 </div>
 SMG signals and extracted SMG features.
 
