@@ -6,7 +6,7 @@ Zhen Song, Yu Sun, Vaheh Nazari, Yihao Zhou, Yongping Zheng
 
 (Department of Biomedical Engineering, The Hong Kong Polytechnic University)
 
-Below are the official implementation of RespiraLab, which ***will be fully open-sourced after the relevant paper is published***.
+Below are the official implementation of RespiraLab, which ***will be avaliable after the relevant paper is published***.
 
 ## Table of contents
 
